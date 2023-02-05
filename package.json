@@ -1,0 +1,14 @@
+{
+  "name": "unittesting",
+  "version": "1.0.0",
+  "description": "unit testing",
+  "main": "functions.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Sterling Holt",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}

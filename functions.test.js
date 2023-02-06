@@ -27,3 +27,13 @@ test('multiply 3 with 5 to equal 15', () => {
 test('divide 15 by 3 to equal 5', () => {
     expect(calculator(15, 3, '/')).toBe(5);
 });
+
+// Square
+test('square 5 to get 25', () => {
+    expect(calculator(5, '^')).toBe(25);
+});
+
+// Square root
+test('return square root of 25 which is 5', () => {
+    expect(calculator(25, '√')).toBe(5);
+});

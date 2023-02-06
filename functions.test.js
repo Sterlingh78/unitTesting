@@ -1,6 +1,5 @@
 const fizzbuzz = require('./fizzbuzz')
-const addition = require('./addition')
-const subtraction = require('./subtraction')
+const calculator = require('./calculator')
 
 // *Fizzbuzz*
 test('3 = fizz; 5 = buzz; 3 or 5 = fizzbuzz' , () => {
@@ -11,20 +10,20 @@ test('3 = fizz; 5 = buzz; 3 or 5 = fizzbuzz' , () => {
 
 // Addition
 test('adds 3 + 5 to equal 8', () => {
-    expect(addition(3, 5)).toBe(8);
+    expect(calculator(3, 5, '+')).toBe(8);
 });
 
 // Subtraction
 test('subtracts 3 from 5 to equal 2', () => {
-    expect(subtraction(3, 5)).toBe(2);
+    expect(calculator(3, 5, '-')).toBe(2);
 });
 
 // Multiplication
 test('multiply 3 with 5 to equal 15', () => {
-    expect(subtraction(3, 5)).toBe(15);
+    expect(calculator(3, 5, '*')).toBe(15);
 });
 
 // Division
 test('divide 15 by 3 to equal 5', () => {
-    expect(subtraction(15, 3)).toBe(5);
+    expect(calculator(15, 3, '/')).toBe(5);
 });

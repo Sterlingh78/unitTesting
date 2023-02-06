@@ -2,6 +2,7 @@ const fizzbuzz = require('./fizzbuzz')
 const calculator = require('./calculator')
 const strings = require('./strings')
 const validateObj = require('./validateObj')
+const sumNums = require('./sumNums')
 
 // *Fizzbuzz*
 

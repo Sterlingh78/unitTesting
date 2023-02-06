@@ -17,4 +17,14 @@ test('adds 3 + 5 to equal 8', () => {
 // Subtraction
 test('subtracts 3 from 5 to equal 2', () => {
     expect(subtraction(3, 5)).toBe(2);
-})
+});
+
+// Multiplication
+test('multiply 3 with 5 to equal 15', () => {
+    expect(subtraction(3, 5)).toBe(15);
+});
+
+// Division
+test('divide 15 by 3 to equal 5', () => {
+    expect(subtraction(15, 3)).toBe(5);
+});

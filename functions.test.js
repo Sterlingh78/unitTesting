@@ -1,5 +1,6 @@
 const fizzbuzz = require('./fizzbuzz')
 const addition = require('./addition')
+const subtraction = require('./subtraction')
 
 // *Fizzbuzz*
 test('3 = fizz; 5 = buzz; 3 or 5 = fizzbuzz' , () => {

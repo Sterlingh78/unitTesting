@@ -66,3 +66,9 @@ test('check if key is in object', () => {
         name: "holt"
     })).toBe(true);
 });
+
+// *Sum numbers*
+
+test('sum numbers in given array', () => {
+    expect(sumNums([1,2,3,4,5])).toBe(15);
+});

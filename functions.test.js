@@ -1,5 +1,6 @@
 const fizzbuzz = require('./fizzbuzz')
 const calculator = require('./calculator')
+const strings = require('./strings')
 
 // *Fizzbuzz*
 

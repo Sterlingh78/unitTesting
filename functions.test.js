@@ -56,3 +56,12 @@ test('uppercase string', () => {
 test('remove vowels from string', () => {
     expect(strings('string', 'remove')).toBe('strng');
 });
+
+// *Object validator*
+
+test('check if key is in object', () => {
+    expect(validateObj('name', {
+        person: "sterling",
+        name: "holt"
+    })).toBe(true);
+});

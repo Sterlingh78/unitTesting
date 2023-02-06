@@ -2,6 +2,7 @@ const fizzbuzz = require('./fizzbuzz')
 const calculator = require('./calculator')
 
 // *Fizzbuzz*
+
 test('3 = fizz; 5 = buzz; 3 or 5 = fizzbuzz' , () => {
     expect(fizzbuzz(15)).toStrictEqual([1,2,'fizz',4,'buzz','fizz',7,8,'fizz','buzz',11,'fizz',13,14,'fizzbuzz']);
 });
@@ -36,4 +37,21 @@ test('square 5 to get 25', () => {
 // Square root
 test('return square root of 25 which is 5', () => {
     expect(calculator(25, '√')).toBe(5);
+});
+
+// *Strings*
+
+// Reverse string
+test('reverse input string', () => {
+    expect(strings('string', 'reverse')).toBe('gnirts');
+});
+
+// Uppercase string
+test('uppercase string', () => {
+    expect(strings('string', 'upper')).toBe('STRING');
+});
+
+// Remove vowels from string
+test('remove vowels from string', () => {
+    expect(strings('string', 'remove')).toBe('strng');
 });

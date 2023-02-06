@@ -12,3 +12,8 @@ test('3 = fizz; 5 = buzz; 3 or 5 = fizzbuzz' , () => {
 test('adds 3 + 5 to equal 8', () => {
     expect(addition(3, 5)).toBe(8);
 });
+
+// Subtraction
+test('subtracts 3 from 5 to equal 2', () => {
+    expect(subtraction(3, 5)).toBe(2);
+})
